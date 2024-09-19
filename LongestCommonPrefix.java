@@ -79,6 +79,6 @@ public class LongestCommonPrefix {
                 k--;
             }
         }
-        return lcs.toString().isEmpty() ? "" : lcs.toString();
+        System.out.println(lcs.toString().isEmpty() ? "" : lcs.toString());
     }
 }
